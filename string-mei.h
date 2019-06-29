@@ -9,7 +9,7 @@ char *stringConcat(char *s, char *t);
 int stringCompare(char *s, char *t);
 int stringIsNumber(char *s);
 void stringReverse(char *s);
-int stringToInt(char *s);
+int stringToNumber(char *s);
 
 int stringLen(char *s){
 	int size = 0;
